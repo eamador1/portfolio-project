@@ -8,13 +8,6 @@ html,
   scroll-behavior: smooth;
 }
 
-/*
-font-family: 'Crete Round', serif;
-font-family: 'Inter', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-*/
-
 .container-header {
   display: flex;
   width: 100%;
@@ -95,10 +88,9 @@ font-family: 'Roboto', sans-serif;
   margin-left: 15px;
 }
 
-.hamburger {
-  margin-left: 0;
-  margin-right: 10vw;
+.hamburger-image {
   cursor: pointer;
+  margin-right: 10vw;
 }
 
 .container-landingpage {
