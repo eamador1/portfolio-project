@@ -272,7 +272,7 @@ html,
   background-size: cover;
   width: 90%;
   margin-left: 5%;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   color: #fff;
   height: 470px;
   flex: 1;
@@ -330,7 +330,6 @@ html,
   margin-top: 2vh;
   margin-bottom: 2vh;
   position: relative;
-  margin-bottom: 0;
 }
 
 .button {
@@ -342,7 +341,6 @@ html,
   color: #fff;
   border: none;
   width: 100%;
-  
 }
 
 /* -------ENDS SECTION CONTAINER WORKS MOBILE----------- */
@@ -466,7 +464,7 @@ html,
 
 /* -------ENDS SECTION ABOUTME MOBILE----------- */
 
-@media (max-width: 380px){
+@media (max-width: 380px) {
   .card {
     height: 400px;      /* See project button moves up too much @375px screen width */
   }                     /* Card is a bit smaller at this size to keep button at bottom */
