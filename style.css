@@ -549,12 +549,14 @@ html,
   background-color: #dbd8d7;
   width: 100%;
   margin-bottom: 4vh;
+  margin-left: 0;
 }
 
 .division-line3 {
   width: 100%;
   margin-bottom: 0;
   margin-top: 2vh;
+  margin-left: 0;
   background-color: #dfe1e6;
 }
 
@@ -570,6 +572,7 @@ html,
 footer {
   display: flex;
   flex-flow: row wrap;
+  padding-top: 5vh;
 }
 
 /* -----------ENDS SECTION CONTACTME MOBILE------------- */
