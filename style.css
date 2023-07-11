@@ -467,6 +467,13 @@ html,
   margin-right: 0%;
   display: inline-block;
 }
+.social-icons-form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+  align-items: baseline;
+}
 
 /* -------ENDS SECTION ABOUTME MOBILE----------- */
 
