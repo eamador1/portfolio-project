@@ -467,13 +467,6 @@ html,
   margin-right: 0%;
   display: inline-block;
 }
-.social-icons-form {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  gap: 2rem;
-  align-items: baseline;
-}
 
 /* -------ENDS SECTION ABOUTME MOBILE----------- */
 
@@ -550,6 +543,14 @@ html,
   margin-bottom: 8vh;
 }
 
+.social-icons-form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+  align-items: baseline;
+}
+
 .division-line2 {
   background-color: #dbd8d7;
   width: 100%;
@@ -569,6 +570,7 @@ html,
   width: 40%;
   margin-bottom: 1vh;
   margin-top: 3vh;
+  margin-left: 30vw;
 }
 
 footer {
