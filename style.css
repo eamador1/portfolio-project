@@ -199,10 +199,11 @@ html,
 }
 
 .list-tools {
+  display: flex;
+  justify-content: center;
   padding-left: 0;
   margin-left: 5%;
   margin-right: 10%;
-  justify-content: center;
   align-content: center;
   gap: 2vh;
   margin-top: 2vh;
@@ -230,25 +231,18 @@ html,
 
 .item:first-child {
   width: 9vh;
-  float:left;
 }
 
 .item:nth-child(2) {
   width: 10vh;
-  float: left;
-  margin-left: 1vw;
 }
 
 .item:nth-child(3) {
   width: 14vh;
-  float: left;
-  margin-left: 1vw;
 }
 
 .item:last-child {
   width: 9vh;
-  float: left;
-  margin-left: 1vw;
 }
 
 .card-heading {
