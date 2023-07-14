@@ -329,6 +329,20 @@ html,
   position: relative;
 }
 
+.button1:hover,
+.button1:focus {
+  cursor: pointer;
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.button1:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+
 .button {
   height: 6.5vh;
   background-color: #ff6b00;
