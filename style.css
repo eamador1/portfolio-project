@@ -687,12 +687,6 @@ footer {
     flex: 1;
   }
 
-  .works .container-header-works .division {
-    width: 60%;
-    margin-bottom: 12vh;
-    margin-left: 1vw;
-  }
-
   .container-posts {
     display: grid;
     width: 85%;
@@ -903,6 +897,20 @@ footer {
     flex: 1;
   }
 
+  footer .division {
+    width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .works .container-header-works .division {
+    width: 60%;
+    margin-bottom: 12vh;
+    margin-left: 1vw;
+  }
+
   .aboutme .container-divisionline2 .division {
     width: 82%;
     margin-left: -2%;
@@ -989,19 +997,6 @@ footer {
 
   .contactform {
     margin-top: 10vh;
-  }
-
-  footer .division {
-    width: 100vw;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .footer .division-line3 {
-    width: 100%;
-    margin-bottom: 3vh;
   }
 
   .container-touch {
