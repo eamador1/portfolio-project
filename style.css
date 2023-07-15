@@ -626,6 +626,15 @@ footer {
     padding-bottom: 18vh;
   }
 
+  .posts-paragraph {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 1.5vh;
+  }
+
   .container-logos {
     grid-area: 1/1/2/2;
     flex-direction: column;
@@ -646,8 +655,10 @@ footer {
   }
 
   .paragraph {
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     line-height: 32px;
+    font-weight: 400;
   }
 
   .container-profession {
@@ -690,13 +701,6 @@ footer {
     margin-left: 7.5%;
   }
 
-  .posts-paragraph {
-    font-size: 20px;
-    line-height: 28px;
-    margin-top: 0;
-    margin-bottom: 1.5vh;
-  }
-
   .button1 {
     width: 10vw;
   }
@@ -711,6 +715,8 @@ footer {
 
   .header-posts {
     margin-top: 0;
+    font-size: 40px;
+    line-height: 52px;
   }
 
   .container-posts-paragraph {
@@ -877,6 +883,7 @@ footer {
   }
 
   .headeraboutme {
+    font-weight: 400;
     margin-left: 8vw;
     flex: 1;
   }
@@ -908,6 +915,15 @@ footer {
     grid-template-rows: 10% 90%;
     width: 87%;
     margin-left: 10%;
+  }
+
+  .languagesquare {
+    font-weight: 700;
+    line-height: 44px;
+  }
+
+  .aboutlanguage {
+    line-height: 42.67px;
   }
 
   .container-containerlanguagesquare {
@@ -975,6 +991,14 @@ footer {
     margin-top: 10vh;
   }
 
+  footer .division {
+    width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .footer .division-line3 {
     width: 100%;
     margin-bottom: 3vh;
@@ -985,7 +1009,7 @@ footer {
   }
 
   .contactme .contactform .division {
-    width: 100vw;
+    width: 100%;
     margin-left: 0;
   }
 
