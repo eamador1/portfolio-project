@@ -11,7 +11,13 @@
   <header class="container-header">
     <nav class="nav-bar">
       <span class="logo">My Logo</span>
-      <img src="img/hamburger.png" class="hamburger-image" alt="Hamburger Menu">
+      <ul class="button-list">      
+        <li class="navlink"><a class="a-nav-button" href="#">Portfolio</a></li>
+        <li class="navlink"><a class="a-nav-button" href="#">About</a></li>
+        <li class="navlink"><a class="a-nav-button" href="#">Contact</a></li>
+        <li class="navlink envelope"><img src="img/envelope.png" class="Envelope-Image"></li>     
+        <li class="navlink"><img src="img/hamburger.png" class="hamburger-image" alt="Hamburger Menu"></li>
+      </ul>
     </nav>
   </header>
   <section class="container-landingpage" id="home">
@@ -22,7 +28,7 @@
       <h4 class="profession">I am a Software Developer</h4>
     </div>
     <div class="container-experience">
-      <p class="paragraph experience">
+      <p class="paragraph">
         I can help you build a product, feature or website. Look through some of my work and experience!
         If you like what you see and have a project you need coded, don't hesitate to contact me.
       </p>
@@ -39,7 +45,7 @@
   <section class="works">
     <header class="container-header-works">
       <h3 class="header-works">My Recent Works</h3>
-      <hr class="division division-line1"></hr>
+      <hr class="division"></hr>
     </header>
     <div class="container-posts">  
       <div class="container-image1">
@@ -66,7 +72,8 @@
       </div>
     </div>
     <div class="container-cards">
-      <div class="card">
+      <div class="card"> <!-- Card 1-->
+        <img src="img/image-hover.png" class="image-hover">
         <div class="container-card-heading">
         <h4 class="card-heading">Professional Art<Br>Printing Data</h4>
         </div>
@@ -86,9 +93,11 @@
         </div> 
       </div>
 
-      <div class="card">
+      <div class="card"> <!-- Card 2-->
+        <img src="img/image-hover.png" class="image-hover">
         <div class="container-card-heading ">
           <h4 class="card-heading">Professional Art<Br>Printing Data</h4>
+          <h4 class="card-heading">Data Dashboard<Br>Healthcare</h4>
         </div>
         <div class="container-card-paragraph">
           <p class="card-paragraph">
@@ -106,9 +115,11 @@
         </div>
       </div>
     
-      <div class="card">
+      <div class="card"> <!-- Card 3-->
+        <img src="img/image-hover.png" class="image-hover">
         <div class="container-card-heading">
           <h4 class="card-heading">Professional Art<Br>Printing Data</h4>
+          <h4 class="card-heading">Website Portfolio</h4>
         </div>
         <div class="container-card-paragraph">
           <p class="card-paragraph">
@@ -126,7 +137,8 @@
         </div> 
       </div>
     
-      <div class="card">
+      <div class="card"> <!-- Card 4-->
+        <img src="img/image-hover.png" class="image-hover">
         <div class="container-card-heading">
           <h4 class="card-heading">Professional Art<Br>Printing Data</h4>
         </div>
@@ -146,9 +158,11 @@
         </div>
       </div>
 
-      <div class="card">
+      <div class="card"> <!-- Card 5-->
+        <img src="img/image-hover.png" class="image-hover">
         <div class="container-card-heading">
-          <h4 class="card-heading secondheading">Professional Art<Br>Printing Data</h4>
+          <h4 class="card-heading">Professional Art<Br>Printing Data</h4>
+          <h4 class="card-heading">Data Dashboard<Br>Healthcare</h4>
         </div>
         <div class="container-card-paragraph">
           <p class="card-paragraph">
@@ -165,9 +179,11 @@
           <button class="button">See project</button>
         </div>
       </div>
-      <div class="card">
+      <div class="card"> <!-- Card 6-->
+        <img src="img/image-hover.png" class="image-hover">
         <div class="container-card-heading">
           <h4 class="card-heading">Professional Art<Br>Printing Data</h4>
+          <h4 class="card-heading">Website Portfolio</h4>
         </div>
         <div class="container-card-paragraph">
           <p class="card-paragraph">
@@ -201,19 +217,19 @@
        Hey there! I can help you build a product, feature or website. Look through some of my work    
        and experience! If you like what you see and have a project you need coded, don't hesitate to 
        contact me.  
-      </p>
+      </p>›
     </div>
     <div>
-      <button class="button getmyresume">Get my resume</button>
+      <button class="button1">Get my resume</button>
     </div>
     <div class="container-divisionline2">
-      <hr class="division division-line2"></hr>
+      <hr class="division"></hr>
     </div>
-    <div class="subcontainer-about">
-      <div class="container-containerlanguagesquare first">
+    <div class="subcontainer-about"> 
+      <div class="container-containerlanguagesquare"><!-- 1 -->
         <div class="container-languagesquare">
           <div class="square90"></div>
-            <div class="languagesquare title1">Language</div>
+            <div class="languagesquare">Language</div>
         </div>
       </div>
       <ul class="languages listaboutlanguages">
@@ -222,10 +238,10 @@
         <li class="aboutlanguage">HTML</li>
         <li class="aboutlanguage">CSS</li>
       </ul> 
-      <div class="container-containerlanguagesquare second">
+      <div class="container-containerlanguagesquare"><!-- 2 -->
         <div class="container-languagesquare">
           <div class="square"></div>
-          <div class="languagesquare title2">Frameworks</div>
+            <div class="languagesquare">Frameworks</div>
         </div>
       </div>
       <ul class="frameworks listaboutlanguages">
@@ -235,8 +251,8 @@
         <li class="aboutlanguage">Capybara</li>
         <li class="aboutlanguage">Selenium</li>
       </ul>
-      <div class="container-containerlanguagesquare third">
-        <div class="container-languagesquare title3">
+      <div class="container-containerlanguagesquare"> <!-- 3 -->
+        <div class="container-languagesquare">
           <div class="circle"></div>
           <div class="languagesquare">Skills</div>
         </div>
@@ -252,23 +268,23 @@
   </Section>
 
   <section class="contactme">
-      <h4 class="always">I am always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
+    <h4 class="always">I am always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
     <form action="https://formspree.io/f/xvonwjkn" method="post" class="contactform">
       <label for="name" class="name-label" ></label>
       <input type="text" class="name" name="name" id="name" maxlength="30" placeholder="Full name" required>
-      <hr class="division division-line2"></hr>
+      <hr class="division"></hr>
       <label for="mail" class="mail-label"></label>
       <input type="email" class="email" name="email" id="mail" placeholder="Email address" required> 
-      <hr class="division division-line2"></hr>
+      <hr class="division"></hr>
       <label for="msg" class="message-label"></label>
       <textarea class="message" id="msg" maxlength="500" placeholder="Write me something..." required></textarea>
       <div class="container-touch">
-      <button class="button1">Get in touch</button>
+       <button class="button1">Get in touch</button>
       </div>
     </form>
   </section>
   <footer>
-    <hr class="division division-line3"></hr>
+    <hr class="division"></hr>
     <ul class="container-logos social-icons-form">
       <li class="list-social"><a class="logos"><img src="img/icongithub.png"></a></li>
       <li class="list-social"><a class="logos"><img src="img/iconlinkedin.png"></a></li>
