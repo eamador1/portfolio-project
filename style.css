@@ -54,18 +54,48 @@ html,
   font-family: 'Inter', sans-serif;
 }
 
+.button-list:active {
+  position: fixed;
+  top: 0;
+  gap:0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+/*.button-list {
+  position: fixed;
+  left: -120%;
+  top: 0;
+  gap: 0;
+  background-color: #3c3a39;
+  width: 100%;
+  text-align: left;
+  transition: 0.3s;
+  height: 90%;
+  color: #fff5e1;
+  line-height: 44px;
+  padding-left: 0;
+  flex: 1;
+}*/
+
 .a-nav-button {
   color: white;
   text-decoration: none;
 }
 
-.x-close {
+.button-list:active > .x-close {
+  display: block;
   margin-left: 77vw;
   margin-top: 5vh;
 }
 
-.button-list.active {
-  left: 0;
+.button-list:active > .hamburger-image {
+  display: none;
+}
+
+.button-list:active > .navlink:first-child {
+  display: block;
 }
 
 .rod {
@@ -584,14 +614,16 @@ footer {
   .container-cards .card:nth-child(3) .card-heading:nth-child(2),
   .container-cards .card:nth-child(5) .card-heading:nth-child(2),
   .container-cards .card:nth-child(6) .card-heading:nth-child(2),
-  .image-hover {
+  .image-hover, 
+  .x-close {
     display: none;
   }
 }
 
 @media (min-width: 768px) {
   .hamburger-image,
-  .image-hover {
+  .image-hover,
+  .x-close {
     display: none;
   }
 
