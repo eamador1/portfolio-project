@@ -58,12 +58,13 @@ html,
   position: fixed;
   top: 0;
   gap:0;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   z-index: 1;
   flex-direction: column;
-  text-align: left;
   transition: 0.3s;  
+  align-items: baseline;
+  justify-content:flex-start;
 }
 
 /*.button-list {
@@ -92,17 +93,34 @@ html,
 
 .button-list:active > .x-close {
   display: block;
-  margin-left: 77vw;
-  margin-top: 5vh;
   position: absolute;
+  margin-left: 85vw;
+  top: 5vh;
+  z-index: 10;
 }
 
-.button-list:active > .hamburger-image {
+.button-list:active > .navlink:last-child {
   display: none;
 }
 
-.button-list:active > .navlink:nth-child(-n+4) {
+.button-list:active > .navlink:first-child {
   display: block;
+  margin-top: 10vh;
+  margin-left: 10vw; 
+}
+
+.button-list:active > .navlink:nth-child(2) {
+  display: block;
+  margin-left: 10vw; 
+}
+
+.button-list:active > .navlink:nth-child(3) {
+  display: block;
+  margin-left: 10vw;
+}
+
+.button-list:active > .navlink:nth-child(5) {
+  display: none;
 }
 
 .rod {
@@ -624,7 +642,14 @@ footer {
   .image-hover, 
   .x-close,
   .button-list-bottom {
-    display: none;
+    display: none
+  }
+
+  .navlink:first-child,
+  .navlink:nth-child(2),
+  .navlink:nth-child(3) {
+    border-bottom: solid 2px #6f6c6b;
+    width: 80%;
   }
 }
 
@@ -632,7 +657,8 @@ footer {
   .hamburger-image,
   .image-hover,
   .x-close, 
-  .button-list {
+  .button-list-bottom,
+  .button-list:active {
     display: none;
   }
 
@@ -651,7 +677,7 @@ footer {
 
   .button-list {
     display: flex;
-    justify-content: column;
+    /*justify-content: column;*/
     height: 7vh;
     align-items: center;
   }

@@ -1,4 +1,4 @@
-const hamburger = document.querySelector('.hamburger-image');
+const hamburger = document.querySelector('.hamburger');
 const menu = document.querySelector('.button-list');
 const closemenu = document.querySelector('.x-close');
 
