@@ -48,10 +48,9 @@ html,
 .button-list {
   position: fixed;
   z-index: 100;
-  display: flex;
   flex-direction: column;
   top: 0;
-  gap:0;
+  gap: 0;
   align-items: baseline;
   justify-content: flex-start;
   margin-bottom: 0;
@@ -62,7 +61,7 @@ html,
   height: 100%;
   width: 100vw;
   display: none;
-  transition: 0.3s; 
+  transition: 0.3s;
 }
 
 .button-list-bottom {
@@ -81,13 +80,13 @@ html,
 }
 
 .active {
- display: block;
+  display: block;
 }
 
 .a-nav-button {
   font-family: 'Inter', sans-serif;
-  color: #FFF5E1;
-  font-size: 32px;  
+  color: #fff5e1;
+  font-size: 32px;
   font-weight: 700;
   text-decoration: none;
 }
@@ -107,7 +106,7 @@ html,
 
 .navlink:nth-child(2),
 .navlink:nth-child(3) {
-  margin-left: 10vw; 
+  margin-left: 10vw;
 }
 
 .rod {
@@ -313,7 +312,6 @@ html,
 .image-hover {
   height: 54.6vh;
   width: 29vw;
-  size: 100%;
   margin-left: 0;
 }
 
@@ -623,7 +621,7 @@ footer {
   .container-cards .card:nth-child(5) .card-heading:nth-child(2),
   .container-cards .card:nth-child(6) .card-heading:nth-child(2),
   .image-hover {
-    display: none
+    display: none;
   }
 
   .navlink:first-child,
@@ -637,9 +635,8 @@ footer {
 @media (min-width: 768px) {
   .hamburger-image,
   .image-hover,
-  .x-close, 
-  .button-list-bottom
-  /*.button-list:active*/ {
+  .x-close,
+  .button-list-bottom {
     display: none;
   }
 
@@ -669,7 +666,6 @@ footer {
     flex-direction: row;
     text-align: center;
     justify-content: flex-end;
-    width: 58%;
     padding-top: 1vh;
     padding-bottom: 1vh;
     padding-right: 3vh;
@@ -834,7 +830,7 @@ footer {
     height: 60vh;
     width: 27vw;
     flex: 1;
-    display: flexbox;
+    display: flex;
     overflow: hidden;
   }
 
@@ -1094,7 +1090,7 @@ footer {
     flex-direction: row;
     width: 100%;
     margin-top: 0;
-    height: fit-content;
+    height: 10vh;
     padding-top: 0;
     margin-left: 6vw;
   }
