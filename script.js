@@ -1,4 +1,4 @@
-const hamburger = document.querySelector('.hamburger');
+const hamburger = document.querySelector('.hamburger-image');
 const menu = document.querySelector('.button-list');
 const closemenu = document.querySelector('.x-close');
 
@@ -7,9 +7,10 @@ hamburger.addEventListener('click', () => {
 });
 
 closemenu.addEventListener('click', () => {
-  menu.classList.remove('active');});
+  menu.classList.toggle('active');
+});
 
 document.querySelectorAll('.navlink').forEach((n) => n.addEventListener('click', () => {
-  hamburger.classList.remove('active');
-  menu.classList.remove('active');
+  hamburger.classList.toggle('active');
+  menu.classList.toggle('active');
 }));
