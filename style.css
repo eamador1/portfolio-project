@@ -61,13 +61,13 @@ html,
   line-height: 44px;
   height: 100%;
   width: 100vw;
-  left: -100%;
+  display: none;
   transition: 0.3s; 
 }
 
 .button-list-bottom {
   position: absolute;
-  top: 0;
+  top: 90vh;
   background-color: #fff;
   width: 100vw;
   display: flex;
@@ -80,8 +80,8 @@ html,
   height: 1vh;
 }
 
-.button-list:active {
-  left: 0;
+.active {
+ display: block;
 }
 
 .a-nav-button {
@@ -682,10 +682,12 @@ footer {
 
   .navlink:first-child {
     margin-left: 62vw;
+    margin-top: 0;
   }
 
   .navlink:nth-child(4) {
-    margin-right: 7vw;
+    margin-right: 4vw;
+    margin-left: 8vw;
   }
 
   .container-landingpage {
