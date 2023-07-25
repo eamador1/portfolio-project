@@ -64,17 +64,6 @@ html,
   transition: 0.3s;
 }
 
-.button-list-bottom {
-  position: absolute;
-  top: 90vh;
-  background-color: #fff;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10vh;
-}
-
 .shape {
   height: 1vh;
 }
