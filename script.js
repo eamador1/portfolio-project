@@ -14,4 +14,3 @@ document.querySelectorAll('.navlink').forEach((n) => n.addEventListener('click',
   hamburger.classList.toggle('active');
   menu.classList.toggle('active');
 }));
-
