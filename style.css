@@ -340,7 +340,12 @@ html,
 
 .container-seeproject-button {
   position: relative;
-  margin-bottom: 0;
+  margin-top: -2vh;
+}
+
+.card:nth-child(3) .container-seeproject-button,
+.card:nth-child(6) .container-seeproject-button {
+  margin-top: 11.5vh;
 }
 
 .button1 {
@@ -496,6 +501,26 @@ html,
   .card {
     height: 420px;      /* See project button moves up too much @375px screen width */
   }                     /* Card is a bit smaller at this size to keep button at bottom */
+
+  .container-seeproject-button {
+    margin-top: -1vh;
+  }
+
+  .card:nth-child(3) .container-seeproject-button,
+  .card:nth-child(6) .container-seeproject-button {
+    margin-top: 14.5vh;
+  }
+}
+
+@media (max-width: 393px) {
+  .container-seeproject-button {
+    margin-top: 3vh;
+  }
+
+  .card:nth-child(3) .container-seeproject-button,
+  .card:nth-child(6) .container-seeproject-button {
+    margin-top: 14vh;
+  }
 }
 
 /* --------------STARTS SECTION CONTACTME MOBILE------------- */
@@ -595,6 +620,122 @@ footer {
   display: flex;
   flex-flow: row wrap;
   padding-top: 5vh;
+}
+
+/* -----------MODAL SECTION CONTACTME MOBILE------------- */
+
+.modalContainer {
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+}
+
+.modal {
+  background-image: url(img/SnapshootPortfolio.svg);
+  background-size: 92%;
+  background-position-y: 20vh;
+  background-position-x: 1rem;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100% - 32px);
+  height: calc(100vh - 60px);
+  margin-left: 16px;
+  margin-top: 30px;
+}
+
+.modalImage-mobile {
+  width: 100%;
+  height: auto;
+}
+
+.modal-title {
+  font-family: 'Roboto', sans-serif;
+  color: #172b4d;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+  margin-left: 1rem;
+  margin-top: 16px;
+  position: relative;
+  flex: 1;
+}
+
+.modal-tools {
+  display: flex;
+  margin-top: 5vh;
+  margin-left: 16px;
+}
+
+.modal-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  border: 1px solid #6b6c6e;
+  color: #3c3a39;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  width: 25vw;
+  height: 5vh;
+  margin-left: 0;
+  margin-right: 3px;
+}
+
+.divMP {
+  width: 100%;
+}
+
+.p-modalMobile {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #344563;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 33vh;
+  text-align: justify;
+  flex: 1;
+}
+
+.modal .x-modalClose {
+  cursor: pointer;
+  position: absolute;
+  left: 80vw;
+  top: 2vh;
+}
+
+.overlay {
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.live {
+  width: 35vw;
+  margin-top: 5vh;
+  margin-left: 4vw;
+}
+
+.source {
+  width: 42vw;
+  margin-left: 8vw;
+}
+
+.hide-scrollBar {
+  overflow: hidden;
 }
 
 /* -----------ENDS SECTION CONTACTME MOBILE------------- */
@@ -791,6 +932,12 @@ footer {
     margin-top: -20.7vh;
     z-index: 10;
     display: none;
+    width: 100%;
+  }
+
+  .card:nth-child(3) .container-seeproject-button,
+  .card:nth-child(6) .container-seeproject-button {
+    margin-top: -20.7vh;
   }
 
   .container-cards {
@@ -865,13 +1012,6 @@ footer {
     background-size: cover;
   }
 
-  .container-cards .card:nth-child(2) .card-heading:first-child,
-  .container-cards .card:nth-child(3) .card-heading:first-child,
-  .container-cards .card:nth-child(5) .card-heading:first-child,
-  .container-cards .card:last-child .card-heading:first-child {
-    display: none;
-  }
-
   .container-cards .card:nth-child(3) .card-heading:nth-child(2),
   .container-cards .card:nth-child(6) .card-heading:nth-child(2) {
     padding-top: 26vh;
@@ -919,6 +1059,7 @@ footer {
 
   .button {
     margin-top: 14vh;
+    width: 100%;
   }
 
   /* --------------SECTION ABOUT ME-------------------------------------------------------- */
@@ -1082,5 +1223,60 @@ footer {
     height: 10vh;
     padding-top: 0;
     margin-left: 6vw;
+  }
+
+  .modal {
+    background-size: 50%;
+    background-position-y: 18vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: #fff;
+    width: 85vw;
+    height: 75vh;
+    margin-left: 7%;
+    margin-top: 13vh;
+    z-index: 1000;
+  }
+
+  .modal-title {
+    font-family: 'Crete Round', serif;
+    color: #172b4d;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 400;
+    margin-left: 24px;
+    margin-top: 24px;
+  }
+
+  .modal-list {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    width: 8vw;
+    height: 5vh;
+    margin-top: -3vh;
+    margin-left: 0;
+    margin-right: 3px;
+  }
+
+  .p-modalMobile {
+    line-height: 30px;
+    width: 45%;
+    margin-right: 1.8rem;
+    margin-left: calc(50% + 41px);
+    margin-top: 2.5vh;
+    text-align: left;
+    flex: 1;
+  }
+
+  .live {
+    width: 10vw;
+    margin-left: 45.5vw;
+    margin-top: 25.3vh;
+  }
+
+  .source {
+    width: 10vw;
+    margin-left: 0.5vw;
   }
 }
