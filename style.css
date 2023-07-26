@@ -340,7 +340,12 @@ html,
 
 .container-seeproject-button {
   position: relative;
-  margin-bottom: 0;
+  margin-top: -2vh;
+}
+
+.card:nth-child(3) .container-seeproject-button,
+.card:nth-child(6) .container-seeproject-button {
+margin-top: 11.5vh;
 }
 
 .button1 {
@@ -496,6 +501,27 @@ html,
   .card {
     height: 420px;      /* See project button moves up too much @375px screen width */
   }                     /* Card is a bit smaller at this size to keep button at bottom */
+
+  .container-seeproject-button {
+    margin-top: -1vh;
+  }
+
+  .card:nth-child(3) .container-seeproject-button,
+  .card:nth-child(6) .container-seeproject-button {
+    margin-top: 14.5vh;
+    }
+}
+
+@media (max-width: 393px) {
+  .container-seeproject-button {
+    margin-top: 3vh;
+  }
+
+  .card:nth-child(3) .container-seeproject-button,
+  .card:nth-child(6) .container-seeproject-button {
+    margin-top: 14vh;
+    }
+
 }
 
 /* --------------STARTS SECTION CONTACTME MOBILE------------- */
@@ -791,6 +817,12 @@ footer {
     margin-top: -20.7vh;
     z-index: 10;
     display: none;
+    width: 100%;
+  }
+
+  .card:nth-child(3) .container-seeproject-button,
+  .card:nth-child(6) .container-seeproject-button {
+    margin-top: -20.7vh;
   }
 
   .container-cards {
@@ -919,6 +951,7 @@ footer {
 
   .button {
     margin-top: 14vh;
+    width: 100%;
   }
 
   /* --------------SECTION ABOUT ME-------------------------------------------------------- */
