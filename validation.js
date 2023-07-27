@@ -5,22 +5,17 @@ const $closemenu = document.querySelector('.x-warning');
 const $container = document.querySelector('.hide');
 
 $form.addEventListener('submit', (e) => {
-  e.preventDefault();
   const restriction = /[A-Z]/;
-  let warnings = '';
-  let enter = false;
-
-  $closemenu.addEventListener('click', () => {
-    $container.classList.add('hide');
-  });
 
   if (restriction.test($mail.value)) {
-    warnings += 'Warning: Please use only lower case for email';
-    enter = true;
-  }
-
-  if (enter) {
-    $message.innerHTML = warnings;
+    e.preventDefault();
+    $message.innerHTML = 'Warning: Please use only lower case for email';
     $container.classList.remove('hide');
+  } else {
+    $container.classList.add('hide');
   }
+});
+
+$closemenu.addEventListener('click', () => {
+  $container.classList.add('hide');
 });
