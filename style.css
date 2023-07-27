@@ -632,6 +632,18 @@ footer {
   padding-top: 5vh;
 }
 
+.container-warning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 90vw;
+  height: 30vh;
+  border: 2px solid #1C1A19;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
 .warnings {
   color: #1c1a19;
   width: 80%;
