@@ -636,12 +636,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  bottom: 30vh;
   width: 90vw;
-  height: 30vh;
+  height: 15vh;
   border: 2px solid #1c1a19;
   border-radius: 8px;
-  background-color: #fff;
+  margin-top: -7vh;
+  position: relative;
+  top:0;
 }
 
 .warnings {
@@ -652,9 +654,9 @@ footer {
 }
 
 .x-warning {
-  position: absolute;
-  top: 2vh;
-  right: 2vh;
+  position: relative;
+  left: 70vw;
+  top: -5vh;
 }
 
 .hide {
@@ -1250,19 +1252,24 @@ footer {
     margin-left: 0;
   }
 
-  .contactme .contactform .container-touch .button1 {
+  .contactme .contactform .container-touch .button2 {
     margin-left: 0;
     width: 28%;
   }
 
   .container-warning {
-    left: 30vw;
-    width: 50vw;
+    left: -5vw;
+    width: 30vw;
   }
 
   .warnings {
     width: 70%;
     font-size: 25px;
+  }
+
+  .x-warning {
+    left: 23vw;
+    top: -4vh;
   }
 
   .social-icons-form {
