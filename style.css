@@ -586,9 +586,19 @@ html,
   justify-content: center;
 }
 
-.button1:nth-child(2) {
+.button2 {
   margin-top: 3vh;
   margin-bottom: 8vh;
+  margin-left: 5%;
+  height: 6.5vh;
+  background-color: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+  border: none;
+  width: 40%;
+  position: relative;
 }
 
 .social-icons-form {
@@ -620,6 +630,23 @@ footer {
   display: flex;
   flex-flow: row wrap;
   padding-top: 5vh;
+}
+
+.warnings {
+  color: #1c1a19;
+  width: 80%;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.x-warning {
+  position: absolute;
+  top: 2vh;
+  right: 2vh;
+}
+
+.hide {
+  display: none;
 }
 
 /* -----------MODAL SECTION CONTACTME MOBILE------------- */
@@ -1214,6 +1241,16 @@ footer {
   .contactme .contactform .container-touch .button1 {
     margin-left: 0;
     width: 28%;
+  }
+
+  .container-warning {
+    left: 30vw;
+    width: 50vw;
+  }
+
+  .warnings {
+    width: 70%;
+    font-size: 25px;
   }
 
   .social-icons-form {
