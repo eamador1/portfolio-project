@@ -40,6 +40,10 @@ HTML and CSS
 - **[HTML file]**
 - **[CSS file]**
 - **[Linters installed: Lighthouse, Webhint, Stylelint and node_modules]**
+- **[DOM_MANIPULATION]**
+- **[PAGE_DEPLOYED]**
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,8 +101,6 @@ You can deploy this project using: Web host provider
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Expand Project Content]**
-- [ ] **[Add JS Fun Stuff]**
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
