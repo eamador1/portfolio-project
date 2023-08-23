@@ -43,9 +43,11 @@ HTML and CSS
 - **[DOM_MANIPULATION]**
 - **[PAGE_DEPLOYED]**
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://mellow-chaja-ec10e2.netlify.app/)
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -87,7 +89,7 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 
 ### Deployment
 
-You can deploy this project using: Web host provider
+https://mellow-chaja-ec10e2.netlify.app/
 
 ## 👥 Authors <a name="authors"></a>
 
