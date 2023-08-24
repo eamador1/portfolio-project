@@ -693,7 +693,7 @@ footer {
 }
 
 .modal:first-child {
-
+  background-image: url(img/AwesomeLibrary-Screenshot.png)
 }
 
 .modal:nth-child(2) {
