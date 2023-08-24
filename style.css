@@ -676,7 +676,7 @@ footer {
 }
 
 .modal {
-  background-image: url(img/AwesomeLibrary-Screenshot.png);
+
   background-size: 92%;
   background-position-y: 20vh;
   background-position-x: 1rem;
@@ -690,6 +690,18 @@ footer {
   height: calc(100vh - 60px);
   margin-left: 16px;
   margin-top: 30px;
+}
+
+.modal:first-child {
+
+}
+
+.modal:nth-child(2) {
+  background-image: url(img/summit-screenshot.png);;
+}
+
+.modal:nth-child(3) {
+  background-image: url(img/AwesomeLibrary-Screenshot.png)
 }
 
 .modalImage-mobile {
