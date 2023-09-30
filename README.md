@@ -47,7 +47,7 @@ HTML and CSS
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://mellow-chaja-ec10e2.netlify.app/)
+- [Live Demo Link](https://eamador1-portfolio.netlify.app/)
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
